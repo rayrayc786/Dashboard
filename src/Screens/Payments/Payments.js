@@ -5,7 +5,7 @@ import Pagination from "./components/Pagination/Pagination";
 import { SelectFilter } from "../../Constants/Constants";
 import Table from "./components/Table/Table";
 import Overview from "./components/Overview/Overview";
-import SearchSortDownload from "./components/SearchSortDownload/Sort";
+import SearchSortDownload from "./components/SearchSortDownload/SearchSortDownload";
 function Payments() {
   const [filterData, setFilterData] = useState(JsonData);
   const [searchData, setSearchData] = useState("");

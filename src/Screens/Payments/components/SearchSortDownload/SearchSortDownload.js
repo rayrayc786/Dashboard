@@ -25,7 +25,7 @@ function SearchSortDownload({setSearchData,setSortState,sortState,filterData}) {
             // setSortState(sortState + 1);
           }}
         >
-          Sort{sortState}<img src={SortIcon}></img>
+          Sort<img src={SortIcon}></img>
         </button>
         <button className="btn-container-1">
           <img
