@@ -128,7 +128,7 @@ function Payments() {
       />
       <div className="container2">
         <div className="transaction-container">
-          <span>Transaction | This Month</span>
+          <span>Transaction | {selectedSortingOption}</span>
         </div>
         <div className="outer-container">
           <SearchSortDownload
