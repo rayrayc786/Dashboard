@@ -1,0 +1,39 @@
+.table-container{
+    // padding: 1rem
+  }
+  table {
+    width: 100%;
+    // display: flex;
+    // flex-direction: column;
+      // justify-content: space-between;
+      // gap: 15rem;
+    //   text-align: left
+    thead{
+      background-color: #f2f2f2;
+    }
+    th,tr{
+      padding: 1rem;
+      word-wrap: none;
+    }
+    th {
+      display: flex;
+      // flex-direction: row;
+      // justify-content: space-between;
+      gap: 15rem;
+    }
+    tr{
+      display: flex;
+      // gap: 15rem;
+      text-align: left;
+    }
+    td{
+      flex: 1;
+      white-space: nowrap;
+      a{
+        color: #0077d2;
+        pointer-events: none;
+      }
+    }
+  }
+  
+  

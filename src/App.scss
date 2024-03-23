@@ -1,0 +1,15 @@
+$root-width: 100%;
+$root-height: 100%;
+
+// Apply styles using variables
+:root {
+  --root-width: #{$root-width};
+  --root-height: #{$root-height};
+}
+
+html, body {
+  width: var(--root-width);
+  height: var(--root-height);
+  margin: 0; /* To remove default margins */
+  padding: 0; /* To remove default padding */
+}
